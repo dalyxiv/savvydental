@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import savvyLogo from "@/assets/savvy-logo-white.png";
+import savvyLogo from "@/assets/savvy-logo-black.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
