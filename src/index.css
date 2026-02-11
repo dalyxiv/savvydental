@@ -6,50 +6,50 @@
 
 @layer base {
   :root {
-    --background: 270 10% 6%;
-    --foreground: 0 0% 95%;
+    --background: 0 0% 100%;
+    --foreground: 270 10% 10%;
 
-    --card: 270 12% 10%;
-    --card-foreground: 0 0% 95%;
+    --card: 270 10% 97%;
+    --card-foreground: 270 10% 10%;
 
-    --popover: 270 12% 10%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 270 10% 10%;
 
     --primary: 276 60% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 15% 15%;
-    --secondary-foreground: 0 0% 90%;
+    --secondary: 270 10% 95%;
+    --secondary-foreground: 270 10% 20%;
 
-    --muted: 270 10% 18%;
-    --muted-foreground: 270 5% 55%;
+    --muted: 270 10% 93%;
+    --muted-foreground: 270 5% 40%;
 
     --accent: 276 70% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 270 10% 18%;
-    --input: 270 10% 18%;
+    --border: 270 10% 88%;
+    --input: 270 10% 88%;
     --ring: 276 60% 45%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 270 10% 6%;
-    --sidebar-foreground: 0 0% 95%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 270 10% 10%;
     --sidebar-primary: 276 60% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 270 15% 15%;
-    --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 270 10% 18%;
+    --sidebar-accent: 270 10% 95%;
+    --sidebar-accent-foreground: 270 10% 20%;
+    --sidebar-border: 270 10% 88%;
     --sidebar-ring: 276 60% 45%;
 
     /* Custom tokens */
     --purple-glow: 276 80% 50%;
-    --purple-deep: 276 50% 20%;
-    --purple-muted: 280 20% 60%;
-    --surface-elevated: 270 12% 12%;
+    --purple-deep: 276 50% 85%;
+    --purple-muted: 280 20% 45%;
+    --surface-elevated: 270 10% 96%;
   }
 }
 
@@ -76,7 +76,7 @@
     font-family: 'Inter', sans-serif;
   }
   .text-gradient-purple {
-    background: linear-gradient(135deg, hsl(276 80% 50%), hsl(280 60% 70%));
+    background: linear-gradient(135deg, hsl(276 60% 45%), hsl(280 50% 60%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
