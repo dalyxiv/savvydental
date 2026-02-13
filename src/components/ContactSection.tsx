@@ -113,7 +113,7 @@ const ContactSection = () => {
         <div className="mt-20 pt-10 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4 text-sm font-body text-muted-foreground">
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-primary" />
-            <span>mongy@savvydental.com</span>
+            <span>DrMongy@SavvyDentals.com</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-primary" />

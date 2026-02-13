@@ -63,8 +63,8 @@ export default {
         "surface-elevated": "hsl(var(--surface-elevated))",
       },
       fontFamily: {
-        display: ["Playfair Display", "serif"],
-        body: ["Inter", "sans-serif"],
+        display: ["Montserrat", "sans-serif"],
+        body: ["Montserrat", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
