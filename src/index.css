@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -50,6 +52,12 @@
     --purple-deep: 276 50% 85%;
     --purple-muted: 280 20% 45%;
     --surface-elevated: 270 10% 96%;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-serif: Merriweather, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+  .dark {
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-serif: Merriweather, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
